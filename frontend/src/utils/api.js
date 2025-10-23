@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const API_BASE = "http://localhost:5001";
+export const API_BASE = "https://delight-vision-sounds.onrender.com";
 
 const api = axios.create({
   baseURL: API_BASE,
